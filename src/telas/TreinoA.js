@@ -14,13 +14,12 @@ const TreinoA = ({navigation}) => {
       <TouchableOpacity onPress={() => navigation.navigate("Dentro1")}>
         <Image  source={require('../../assets/TreinoA/sumo.png')} 
                 style={imagens.imagem}
-                
         />
        <Text style={textos.treinos}>Agachamento Sumo Halter</Text>   
        <Text style={textos.repeticoes}>4  x 12</Text>  
       </TouchableOpacity>
 
-      <TouchableOpacity onPress={() => navigation.navigate("Dentro1")}>
+      <TouchableOpacity onPress={() => navigation.navigate("Dentro2")}>
         <Image  source={require('../../assets/TreinoA/legpress.jpg')} 
                 style={imagens.imagem}
         />
@@ -140,16 +139,16 @@ const textos = StyleSheet.create({
    backgroundColor: '#222222'
   },
   repeticoes:{
-      width: 262.2, 
-      flexDirection: 'row',
-      fontSize: 15,
-      lineHeight: 120,
-      color: "#fcb103",
-      textAlign: 'left',
-      alignSelf: 'flex-end',
-      padding: 14,
-      fontWeight: "bold",
-      position: 'absolute',
+    width: 262.2, 
+    flexDirection: 'row',
+    fontSize: 15,
+    lineHeight: 120,
+    color: "#fcb103",
+    textAlign: 'left',
+    alignSelf: 'flex-end',
+    padding: 14,
+    fontWeight: "bold",
+    position: 'absolute',
   },
   teste: {
     width: "85%",

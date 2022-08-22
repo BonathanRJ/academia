@@ -8,7 +8,7 @@ const TreinoB = ({navigation}) => {
     <View style={styles.container}>
       <Text style={textos.titulo}>Peito, Costa, Braços</Text>
 
-      <TouchableOpacity onPress={() => navigation.navigate("Dentro2")}>
+      <TouchableOpacity onPress={() => navigation.navigate("Dentro4")}>
         <Image  source={require('../../assets/TreinoB/supino.jpg')} 
                 style={imagens.imagem}
         />
@@ -16,7 +16,7 @@ const TreinoB = ({navigation}) => {
        <Text style={textos.repeticoes}>5  x 10</Text>  
       </TouchableOpacity>
 
-      <TouchableOpacity onPress={() => navigation.navigate("Dentro2")}>
+      <TouchableOpacity onPress={() => navigation.navigate("Dentro4")}>
         <Image  source={require('../../assets/TreinoB/voador.jpg')} 
                 style={imagens.imagem}
         />
@@ -24,7 +24,7 @@ const TreinoB = ({navigation}) => {
        <Text style={textos.repeticoes}>5  x 10</Text>    
       </TouchableOpacity>
 
-      <TouchableOpacity onPress={() => navigation.navigate("Dentro2")}>
+      <TouchableOpacity onPress={() => navigation.navigate("Dentro4")}>
         <Image  source={require('../../assets/TreinoB/remada.jpg')} 
                 style={imagens.imagem}
         />
@@ -32,7 +32,7 @@ const TreinoB = ({navigation}) => {
        <Text style={textos.repeticoes}>5  x 10</Text> 
       </TouchableOpacity>
 
-      <TouchableOpacity onPress={() => navigation.navigate("Dentro2")}>
+      <TouchableOpacity onPress={() => navigation.navigate("Dentro4")}>
         <Image  source={require('../../assets/TreinoB/pulley.png')} 
                 style={imagens.imagem}
         />
@@ -40,7 +40,7 @@ const TreinoB = ({navigation}) => {
        <Text style={textos.repeticoes}>5  x 10</Text>  
       </TouchableOpacity>
 
-      <TouchableOpacity onPress={() => navigation.navigate("Dentro2")}>
+      <TouchableOpacity onPress={() => navigation.navigate("Dentro4")}>
         <Image  source={require('../../assets/TreinoB/triceps_pulley.jpg')} 
                 style={imagens.imagem}
         />
@@ -48,7 +48,7 @@ const TreinoB = ({navigation}) => {
        <Text style={textos.repeticoes}>5  x  5</Text>  
       </TouchableOpacity>
 
-      <TouchableOpacity onPress={() => navigation.navigate("Dentro2")}>
+      <TouchableOpacity onPress={() => navigation.navigate("Dentro4")}>
         <Image  source={require('../../assets/TreinoB/rosca.jpg')} 
                 style={imagens.imagem}
         />
@@ -56,7 +56,7 @@ const TreinoB = ({navigation}) => {
        <Text style={textos.repeticoes}>5  x  5</Text>  
       </TouchableOpacity>
 
-      <TouchableOpacity onPress={() => navigation.navigate("Dentro2")}>
+      <TouchableOpacity onPress={() => navigation.navigate("Dentro4")}>
         <Image  source={require('../../assets/TreinoA/supra.png')} 
                 style={imagens.imagem}
         />
@@ -64,7 +64,7 @@ const TreinoB = ({navigation}) => {
        <Text style={textos.repeticoes}>2  x 20</Text>  
       </TouchableOpacity>
 
-      <TouchableOpacity onPress={() => navigation.navigate("Dentro2")}>
+      <TouchableOpacity onPress={() => navigation.navigate("Dentro4")}>
         <Image  source={require('../../assets/TreinoA/infra.jpg')} 
                 style={imagens.imagem}
         />
@@ -72,7 +72,7 @@ const TreinoB = ({navigation}) => {
        <Text style={textos.repeticoes}>2  x 20</Text>  
       </TouchableOpacity>
 
-      <TouchableOpacity onPress={() => navigation.navigate("Dentro2")}>
+      <TouchableOpacity onPress={() => navigation.navigate("Dentro4")}>
         <Image  source={require('../../assets/TreinoA/esteira.png')} 
                 style={imagens.imagem}
         />

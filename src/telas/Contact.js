@@ -1,47 +1,51 @@
-import React from "react";
-import { View, StyleSheet, Text, TextInput } from "react-native";
-import * as Animatable from 'react-native-animatable';
+import React, { Component } from 'react'
+import { AppRegistry, StyleSheet, Text, View } from 'react-native'
 
-
-const Contact = () => {
-  return (
-    <View style={styles.center}>
-      <Text>TESTE INPUT</Text>
-      <TextInput   
-        style={styles.input}
-        placeholder= "aaa"
-        onChangeText={(text) => this.setState({total: text})  }      
-       > 
-                
-      </TextInput>
-    
-    
-    
-    </View>
-
-
-  );
-};
-
-
+import Swiper from 'react-native-swiper'
 
 const styles = StyleSheet.create({
-  center: {
+  wrapper: {},
+  slide1: {
     flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-    textAlign: "center",
-  },
-  input:{
-    marginTop: 10,
-    width: 250,
-    height: 42,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#a69d9d',
-    borderRadius: 4
-
+    backgroundColor: '#9DD6EB'
+  },
+  slide2: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#97CAE5'
+  },
+  slide3: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#92BBD9'
+  },
+  text: {
+    color: '#fff',
+    fontSize: 30,
+    fontWeight: 'bold'
   }
-});
+})
 
-export default Contact;
+export default class SwiperComponent extends Component {
+  render() {
+    return (
+      <Swiper style={styles.wrapper} showsButtons={true}>
+        <View style={styles.slide1}>
+          <Text style={styles.text}>Hello Swiper</Text>
+        </View>
+        <View style={styles.slide2}>
+          <Text style={styles.text}>Beautiful</Text>
+        </View>
+        <View style={styles.slide3}>
+          <Text style={styles.text}>And simple</Text>
+        </View>
+      </Swiper>
+    )
+  }
+}
+
+AppRegistry.registerComponent('myproject', () => SwiperComponent)
